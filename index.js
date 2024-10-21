@@ -6,7 +6,9 @@ let mannaPoints = 50;
 const castSpell = () => {
     //choose a random spell from the array
     const randomIndex = Math.floor(Math.random() * spellBook.length);
+    const randomSpell = spellBook{randomIndex};
 
+    // show the user the spell on the screen
     console.log('randomIndex', randomIndex)
     const randomSpell = spellBook[randomIndex];
     console.log('raondomSpell', randomspell);
